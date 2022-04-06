@@ -2,6 +2,14 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
+
+# Common IntelliJ Platform excludes
+
+# Jetbrain Rider Cache
+.idea/
+Assets/Plugins/Editor/JetBrains*
+
+
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
