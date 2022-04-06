@@ -1,19 +1,23 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
 
-public class Pressable : MonoBehaviour
+namespace Carnival.Interactables
 {
-    [SerializeField] private UnityEvent OnPress;
+	public class Pressable : MonoBehaviour
+	{
+		[SerializeField] private UnityEvent _onPressed;
 
-  void OnTriggerEnter(Collider other)
-    {
-        OVRGrabber grabber = other.GetComponent<OVRGrabber>();
-       
-        if (grabber == null)
-           return;
+		private void OnTriggerEnter(Collider other)
+		{
+			var grabber = other.GetComponent<OVRGrabber>();
 
-        OnPress?.Invoke();
-
-        Debug.Log("DETECTING PRESS");
-    }
+			if (grabber == null)
+			{
+				return;
+			}
+			_onPressed?.Invoke();
+ 
+			Debug.Log("DETECTING PRESS");
+		}
+	}
 }

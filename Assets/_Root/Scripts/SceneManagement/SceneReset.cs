@@ -1,7 +1,10 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneReset : MonoBehaviour
+namespace Carnival.SceneManagement
 {
-    public void ResetScene() => SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+	public class SceneReset : MonoBehaviour
+	{
+		public void ResetScene() => SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+	}
 }
