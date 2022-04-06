@@ -933,7 +933,7 @@ PrefabInstance:
     - target: {fileID: 1808101754347481865, guid: a91a1439170539e4e9d4ee0e01b8f307,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.034
+      value: 0.959
       objectReference: {fileID: 0}
     - target: {fileID: 1808101754347481865, guid: a91a1439170539e4e9d4ee0e01b8f307,
         type: 3}
@@ -943,7 +943,7 @@ PrefabInstance:
     - target: {fileID: 1808101754347481865, guid: a91a1439170539e4e9d4ee0e01b8f307,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.045
+      value: 0.27
       objectReference: {fileID: 0}
     - target: {fileID: 1808101754347481865, guid: a91a1439170539e4e9d4ee0e01b8f307,
         type: 3}
@@ -1132,6 +1132,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Radius
       value: 0.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8112118381569720220, guid: 616be7adb75bd5e488b846c188a0f68a,
+        type: 3}
+      propertyPath: resetTrackerOnLoad
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 616be7adb75bd5e488b846c188a0f68a, type: 3}
