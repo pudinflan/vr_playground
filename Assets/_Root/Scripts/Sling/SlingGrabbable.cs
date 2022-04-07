@@ -13,8 +13,7 @@ namespace Carnival.Sling
 			{
 				return;
 			}
-
-			transform.LookAt(_slingRailTransform);
+			
 		}
 	}
 }
