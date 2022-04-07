@@ -7,6 +7,6 @@ namespace Carnival.SceneManagement
 	{
 		[SerializeField] private string _sceneToLoad;
 
-		public void LoadScene() => SceneManager.LoadScene(_sceneToLoad);
+		public void Button_LoadScene() => SceneManager.LoadScene(_sceneToLoad);
 	}
 }

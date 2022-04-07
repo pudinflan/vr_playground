@@ -204,7 +204,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1808101755197952763}
-        m_MethodName: ResetScene
+        m_MethodName: BigRedButton_ResetScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

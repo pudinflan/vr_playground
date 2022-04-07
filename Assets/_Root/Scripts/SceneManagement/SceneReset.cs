@@ -5,6 +5,6 @@ namespace Carnival.SceneManagement
 {
 	public class SceneReset : MonoBehaviour
 	{
-		public void ResetScene() => SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+		public void BigRedButton_ResetScene() => SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 	}
 }
